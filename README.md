@@ -10,7 +10,6 @@ Build an app that:
 
     1. Asks the user to select all the cells in a tableview with the same colour - as nominated by you.
     2. Task of your choosing (use your imagination, and no need to overcomplicate it!)
-<i>Bonus point if you are able to include a scroll view</i>
     
 * Designs should be simple, and clean.
 
