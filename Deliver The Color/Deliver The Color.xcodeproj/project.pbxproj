@@ -12,6 +12,9 @@
 		02B4B16426C1E60A001DDBFD /* StartChooseColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B4B16226C1E60A001DDBFD /* StartChooseColorViewController.swift */; };
 		02B4B16526C1E60A001DDBFD /* StartChooseColorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02B4B16326C1E60A001DDBFD /* StartChooseColorViewController.xib */; };
 		02B4B16726C1E63C001DDBFD /* StartChooseColorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B4B16626C1E63C001DDBFD /* StartChooseColorViewModel.swift */; };
+		02B4B16C26C1EFD2001DDBFD /* ChooseColorContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B4B16A26C1EFD2001DDBFD /* ChooseColorContentViewController.swift */; };
+		02B4B16D26C1EFD2001DDBFD /* ChooseColorContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02B4B16B26C1EFD2001DDBFD /* ChooseColorContentViewController.xib */; };
+		02B4B16F26C1EFFC001DDBFD /* ChooseColorContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B4B16E26C1EFFC001DDBFD /* ChooseColorContentViewModel.swift */; };
 		02BDEF1826C1CCB30057C3C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BDEF1726C1CCB30057C3C1 /* AppDelegate.swift */; };
 		02BDEF2126C1CCB50057C3C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02BDEF2026C1CCB50057C3C1 /* Assets.xcassets */; };
 		02BDEF2426C1CCB50057C3C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02BDEF2226C1CCB50057C3C1 /* LaunchScreen.storyboard */; };
@@ -23,6 +26,9 @@
 		02B4B16226C1E60A001DDBFD /* StartChooseColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartChooseColorViewController.swift; sourceTree = "<group>"; };
 		02B4B16326C1E60A001DDBFD /* StartChooseColorViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StartChooseColorViewController.xib; sourceTree = "<group>"; };
 		02B4B16626C1E63C001DDBFD /* StartChooseColorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartChooseColorViewModel.swift; sourceTree = "<group>"; };
+		02B4B16A26C1EFD2001DDBFD /* ChooseColorContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseColorContentViewController.swift; sourceTree = "<group>"; };
+		02B4B16B26C1EFD2001DDBFD /* ChooseColorContentViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChooseColorContentViewController.xib; sourceTree = "<group>"; };
+		02B4B16E26C1EFFC001DDBFD /* ChooseColorContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseColorContentViewModel.swift; sourceTree = "<group>"; };
 		02BDEF1426C1CCB30057C3C1 /* Deliver The Color.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Deliver The Color.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		02BDEF1726C1CCB30057C3C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		02BDEF2026C1CCB50057C3C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -44,6 +50,7 @@
 		02B4B15826C1E0DD001DDBFD /* ChooseColor */ = {
 			isa = PBXGroup;
 			children = (
+				02B4B16826C1EF65001DDBFD /* Content */,
 				02B4B16126C1E452001DDBFD /* Start */,
 				02B4B16026C1E449001DDBFD /* Root */,
 			);
@@ -67,6 +74,16 @@
 				02B4B16626C1E63C001DDBFD /* StartChooseColorViewModel.swift */,
 			);
 			path = Start;
+			sourceTree = "<group>";
+		};
+		02B4B16826C1EF65001DDBFD /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				02B4B16A26C1EFD2001DDBFD /* ChooseColorContentViewController.swift */,
+				02B4B16B26C1EFD2001DDBFD /* ChooseColorContentViewController.xib */,
+				02B4B16E26C1EFFC001DDBFD /* ChooseColorContentViewModel.swift */,
+			);
+			path = Content;
 			sourceTree = "<group>";
 		};
 		02BDEF0B26C1CCB30057C3C1 = {
@@ -173,6 +190,7 @@
 				02BDEF2426C1CCB50057C3C1 /* LaunchScreen.storyboard in Resources */,
 				02B4B16526C1E60A001DDBFD /* StartChooseColorViewController.xib in Resources */,
 				02BDEF2126C1CCB50057C3C1 /* Assets.xcassets in Resources */,
+				02B4B16D26C1EFD2001DDBFD /* ChooseColorContentViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,8 +202,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				02B4B16426C1E60A001DDBFD /* StartChooseColorViewController.swift in Sources */,
+				02B4B16C26C1EFD2001DDBFD /* ChooseColorContentViewController.swift in Sources */,
 				02B4B15F26C1E225001DDBFD /* ChooseColorViewModel.swift in Sources */,
 				02BDEF1826C1CCB30057C3C1 /* AppDelegate.swift in Sources */,
+				02B4B16F26C1EFFC001DDBFD /* ChooseColorContentViewModel.swift in Sources */,
 				02B4B16726C1E63C001DDBFD /* StartChooseColorViewModel.swift in Sources */,
 				02B4B15C26C1E115001DDBFD /* ChooseColorViewController.swift in Sources */,
 			);

@@ -12,7 +12,8 @@ protocol ChooseColorViewModel {
 }
 
 final class ChooseColorViewModelImpl: ChooseColorViewModel {
-    typealias Container = StartChooseColorViewControllerFactory
+    typealias Container = StartChooseColorViewControllerFactory &
+        ChooseColorContentViewControllerFactory
     
     // fancy construct to encapsulate all the pontetial default implementations of any factory protocol
     // of which the container typealias may be composed
@@ -20,10 +21,12 @@ final class ChooseColorViewModelImpl: ChooseColorViewModel {
     private final class ContainerImpl: Container {}
     
     private let startChooseColorVCFactory: StartChooseColorViewControllerFactory
+    private let chooseColorContentVCFactory: ChooseColorContentViewControllerFactory
     private weak var view: ChooseColorView?
     
     init(container: Container = ContainerImpl()) {
         self.startChooseColorVCFactory = container
+        self.chooseColorContentVCFactory = container
     }
     
     func bind(view: ChooseColorView) {
@@ -38,6 +41,13 @@ final class ChooseColorViewModelImpl: ChooseColorViewModel {
 
 extension ChooseColorViewModelImpl: StartChooseColorViewModelDelegate {
     func startChooseColorViewModelDidTapStart(_ viewModel: StartChooseColorViewModel) {
-        debugPrint("--- did tap start")
+        view?.set(viewController: chooseColorContentVCFactory.chooseColorContentViewController(viewModelDelegate: self),
+                  asNext: true)
+    }
+}
+
+extension ChooseColorViewModelImpl: ChooseColorContentViewModelDelegate {
+    func chooseColorContentViewModelDidFinish(_ viewModel: ChooseColorContentViewModel) {
+        debugPrint("--- choose color content view model did finish")
     }
 }
