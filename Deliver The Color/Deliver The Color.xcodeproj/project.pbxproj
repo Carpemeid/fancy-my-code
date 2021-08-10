@@ -7,28 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02B4B15C26C1E115001DDBFD /* ChooseColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B4B15A26C1E115001DDBFD /* ChooseColorViewController.swift */; };
-		02B4B15F26C1E225001DDBFD /* ChooseColorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B4B15E26C1E225001DDBFD /* ChooseColorViewModel.swift */; };
-		02B4B16426C1E60A001DDBFD /* StartChooseColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B4B16226C1E60A001DDBFD /* StartChooseColorViewController.swift */; };
-		02B4B16526C1E60A001DDBFD /* StartChooseColorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02B4B16326C1E60A001DDBFD /* StartChooseColorViewController.xib */; };
-		02B4B16726C1E63C001DDBFD /* StartChooseColorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B4B16626C1E63C001DDBFD /* StartChooseColorViewModel.swift */; };
 		02B4B16C26C1EFD2001DDBFD /* ChooseColorContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B4B16A26C1EFD2001DDBFD /* ChooseColorContentViewController.swift */; };
 		02B4B16D26C1EFD2001DDBFD /* ChooseColorContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02B4B16B26C1EFD2001DDBFD /* ChooseColorContentViewController.xib */; };
 		02B4B16F26C1EFFC001DDBFD /* ChooseColorContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B4B16E26C1EFFC001DDBFD /* ChooseColorContentViewModel.swift */; };
+		02B4B17326C1FF09001DDBFD /* SelectCorrectColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B4B17126C1FF09001DDBFD /* SelectCorrectColorViewController.swift */; };
+		02B4B17426C1FF09001DDBFD /* SelectCorrectColorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02B4B17226C1FF09001DDBFD /* SelectCorrectColorViewController.xib */; };
+		02B4B17626C1FFB1001DDBFD /* SelectCorrectColorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B4B17526C1FFB1001DDBFD /* SelectCorrectColorViewModel.swift */; };
+		02B4B17C26C20AD6001DDBFD /* ColorItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B4B17B26C20AD6001DDBFD /* ColorItem.swift */; };
+		02B4B17F26C262C7001DDBFD /* ColorItemDataSourceGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B4B17E26C262C7001DDBFD /* ColorItemDataSourceGenerator.swift */; };
+		02B4B18326C277A2001DDBFD /* SelectWrongColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B4B18126C277A2001DDBFD /* SelectWrongColorViewController.swift */; };
+		02B4B18426C277A2001DDBFD /* SelectWrongColorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02B4B18226C277A2001DDBFD /* SelectWrongColorViewController.xib */; };
+		02B4B18626C277CC001DDBFD /* SelectWrongColorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B4B18526C277CC001DDBFD /* SelectWrongColorViewModel.swift */; };
+		02B4B18926C27DCD001DDBFD /* AlertViewControllerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B4B18826C27DCD001DDBFD /* AlertViewControllerFactory.swift */; };
+		02B4B18C26C28288001DDBFD /* UIView+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B4B18B26C28288001DDBFD /* UIView+Utils.swift */; };
 		02BDEF1826C1CCB30057C3C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BDEF1726C1CCB30057C3C1 /* AppDelegate.swift */; };
 		02BDEF2126C1CCB50057C3C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02BDEF2026C1CCB50057C3C1 /* Assets.xcassets */; };
 		02BDEF2426C1CCB50057C3C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02BDEF2226C1CCB50057C3C1 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		02B4B15A26C1E115001DDBFD /* ChooseColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseColorViewController.swift; sourceTree = "<group>"; };
-		02B4B15E26C1E225001DDBFD /* ChooseColorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseColorViewModel.swift; sourceTree = "<group>"; };
-		02B4B16226C1E60A001DDBFD /* StartChooseColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartChooseColorViewController.swift; sourceTree = "<group>"; };
-		02B4B16326C1E60A001DDBFD /* StartChooseColorViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StartChooseColorViewController.xib; sourceTree = "<group>"; };
-		02B4B16626C1E63C001DDBFD /* StartChooseColorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartChooseColorViewModel.swift; sourceTree = "<group>"; };
 		02B4B16A26C1EFD2001DDBFD /* ChooseColorContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseColorContentViewController.swift; sourceTree = "<group>"; };
 		02B4B16B26C1EFD2001DDBFD /* ChooseColorContentViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChooseColorContentViewController.xib; sourceTree = "<group>"; };
 		02B4B16E26C1EFFC001DDBFD /* ChooseColorContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseColorContentViewModel.swift; sourceTree = "<group>"; };
+		02B4B17126C1FF09001DDBFD /* SelectCorrectColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCorrectColorViewController.swift; sourceTree = "<group>"; };
+		02B4B17226C1FF09001DDBFD /* SelectCorrectColorViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelectCorrectColorViewController.xib; sourceTree = "<group>"; };
+		02B4B17526C1FFB1001DDBFD /* SelectCorrectColorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCorrectColorViewModel.swift; sourceTree = "<group>"; };
+		02B4B17B26C20AD6001DDBFD /* ColorItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorItem.swift; sourceTree = "<group>"; };
+		02B4B17E26C262C7001DDBFD /* ColorItemDataSourceGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorItemDataSourceGenerator.swift; sourceTree = "<group>"; };
+		02B4B18126C277A2001DDBFD /* SelectWrongColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectWrongColorViewController.swift; sourceTree = "<group>"; };
+		02B4B18226C277A2001DDBFD /* SelectWrongColorViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelectWrongColorViewController.xib; sourceTree = "<group>"; };
+		02B4B18526C277CC001DDBFD /* SelectWrongColorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectWrongColorViewModel.swift; sourceTree = "<group>"; };
+		02B4B18826C27DCD001DDBFD /* AlertViewControllerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewControllerFactory.swift; sourceTree = "<group>"; };
+		02B4B18B26C28288001DDBFD /* UIView+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Utils.swift"; sourceTree = "<group>"; };
 		02BDEF1426C1CCB30057C3C1 /* Deliver The Color.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Deliver The Color.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		02BDEF1726C1CCB30057C3C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		02BDEF2026C1CCB50057C3C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -50,40 +60,65 @@
 		02B4B15826C1E0DD001DDBFD /* ChooseColor */ = {
 			isa = PBXGroup;
 			children = (
-				02B4B16826C1EF65001DDBFD /* Content */,
-				02B4B16126C1E452001DDBFD /* Start */,
-				02B4B16026C1E449001DDBFD /* Root */,
-			);
-			path = ChooseColor;
-			sourceTree = "<group>";
-		};
-		02B4B16026C1E449001DDBFD /* Root */ = {
-			isa = PBXGroup;
-			children = (
-				02B4B15A26C1E115001DDBFD /* ChooseColorViewController.swift */,
-				02B4B15E26C1E225001DDBFD /* ChooseColorViewModel.swift */,
-			);
-			path = Root;
-			sourceTree = "<group>";
-		};
-		02B4B16126C1E452001DDBFD /* Start */ = {
-			isa = PBXGroup;
-			children = (
-				02B4B16226C1E60A001DDBFD /* StartChooseColorViewController.swift */,
-				02B4B16326C1E60A001DDBFD /* StartChooseColorViewController.xib */,
-				02B4B16626C1E63C001DDBFD /* StartChooseColorViewModel.swift */,
-			);
-			path = Start;
-			sourceTree = "<group>";
-		};
-		02B4B16826C1EF65001DDBFD /* Content */ = {
-			isa = PBXGroup;
-			children = (
+				02B4B18026C27772001DDBFD /* SelectWrongColor */,
+				02B4B17026C1FEDA001DDBFD /* SelectCorrectColor */,
 				02B4B16A26C1EFD2001DDBFD /* ChooseColorContentViewController.swift */,
 				02B4B16B26C1EFD2001DDBFD /* ChooseColorContentViewController.xib */,
 				02B4B16E26C1EFFC001DDBFD /* ChooseColorContentViewModel.swift */,
 			);
-			path = Content;
+			path = ChooseColor;
+			sourceTree = "<group>";
+		};
+		02B4B17026C1FEDA001DDBFD /* SelectCorrectColor */ = {
+			isa = PBXGroup;
+			children = (
+				02B4B17126C1FF09001DDBFD /* SelectCorrectColorViewController.swift */,
+				02B4B17226C1FF09001DDBFD /* SelectCorrectColorViewController.xib */,
+				02B4B17526C1FFB1001DDBFD /* SelectCorrectColorViewModel.swift */,
+			);
+			path = SelectCorrectColor;
+			sourceTree = "<group>";
+		};
+		02B4B17A26C20ACD001DDBFD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				02B4B17B26C20AD6001DDBFD /* ColorItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		02B4B17D26C2628A001DDBFD /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				02B4B17E26C262C7001DDBFD /* ColorItemDataSourceGenerator.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		02B4B18026C27772001DDBFD /* SelectWrongColor */ = {
+			isa = PBXGroup;
+			children = (
+				02B4B18126C277A2001DDBFD /* SelectWrongColorViewController.swift */,
+				02B4B18226C277A2001DDBFD /* SelectWrongColorViewController.xib */,
+				02B4B18526C277CC001DDBFD /* SelectWrongColorViewModel.swift */,
+			);
+			path = SelectWrongColor;
+			sourceTree = "<group>";
+		};
+		02B4B18726C27DBE001DDBFD /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				02B4B18826C27DCD001DDBFD /* AlertViewControllerFactory.swift */,
+			);
+			path = Alert;
+			sourceTree = "<group>";
+		};
+		02B4B18A26C2827C001DDBFD /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				02B4B18B26C28288001DDBFD /* UIView+Utils.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 		02BDEF0B26C1CCB30057C3C1 = {
@@ -105,6 +140,9 @@
 		02BDEF1626C1CCB30057C3C1 /* Deliver The Color */ = {
 			isa = PBXGroup;
 			children = (
+				02B4B18A26C2827C001DDBFD /* Utilities */,
+				02B4B17D26C2628A001DDBFD /* Services */,
+				02B4B17A26C20ACD001DDBFD /* Model */,
 				02BDEF2C26C1D4130057C3C1 /* View */,
 				02BDEF2B26C1D38B0057C3C1 /* App */,
 				02BDEF2026C1CCB50057C3C1 /* Assets.xcassets */,
@@ -125,6 +163,7 @@
 		02BDEF2C26C1D4130057C3C1 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				02B4B18726C27DBE001DDBFD /* Alert */,
 				02B4B15826C1E0DD001DDBFD /* ChooseColor */,
 			);
 			path = View;
@@ -188,8 +227,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				02BDEF2426C1CCB50057C3C1 /* LaunchScreen.storyboard in Resources */,
-				02B4B16526C1E60A001DDBFD /* StartChooseColorViewController.xib in Resources */,
+				02B4B17426C1FF09001DDBFD /* SelectCorrectColorViewController.xib in Resources */,
 				02BDEF2126C1CCB50057C3C1 /* Assets.xcassets in Resources */,
+				02B4B18426C277A2001DDBFD /* SelectWrongColorViewController.xib in Resources */,
 				02B4B16D26C1EFD2001DDBFD /* ChooseColorContentViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -201,13 +241,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02B4B16426C1E60A001DDBFD /* StartChooseColorViewController.swift in Sources */,
+				02B4B17F26C262C7001DDBFD /* ColorItemDataSourceGenerator.swift in Sources */,
+				02B4B17626C1FFB1001DDBFD /* SelectCorrectColorViewModel.swift in Sources */,
+				02B4B18926C27DCD001DDBFD /* AlertViewControllerFactory.swift in Sources */,
+				02B4B18626C277CC001DDBFD /* SelectWrongColorViewModel.swift in Sources */,
+				02B4B18326C277A2001DDBFD /* SelectWrongColorViewController.swift in Sources */,
 				02B4B16C26C1EFD2001DDBFD /* ChooseColorContentViewController.swift in Sources */,
-				02B4B15F26C1E225001DDBFD /* ChooseColorViewModel.swift in Sources */,
 				02BDEF1826C1CCB30057C3C1 /* AppDelegate.swift in Sources */,
 				02B4B16F26C1EFFC001DDBFD /* ChooseColorContentViewModel.swift in Sources */,
-				02B4B16726C1E63C001DDBFD /* StartChooseColorViewModel.swift in Sources */,
-				02B4B15C26C1E115001DDBFD /* ChooseColorViewController.swift in Sources */,
+				02B4B17326C1FF09001DDBFD /* SelectCorrectColorViewController.swift in Sources */,
+				02B4B17C26C20AD6001DDBFD /* ColorItem.swift in Sources */,
+				02B4B18C26C28288001DDBFD /* UIView+Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

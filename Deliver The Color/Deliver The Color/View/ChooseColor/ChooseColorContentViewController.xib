@@ -10,6 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ChooseColorContentViewController" customModule="Deliver_The_Color" customModuleProvider="target">
             <connections>
+                <outlet property="pageViewControllerContainerView" destination="jJ3-n1-6lc" id="3dF-Lf-72I"/>
                 <outlet property="timeLabel" destination="dzu-gg-IWq" id="jwo-tH-Ryi"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
@@ -29,13 +30,21 @@
                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jJ3-n1-6lc">
+                    <rect key="frame" x="0.0" y="44" width="320" height="436"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </view>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
                 <constraint firstItem="dzu-gg-IWq" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="BAK-K7-M5i"/>
+                <constraint firstItem="jJ3-n1-6lc" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="JgY-0Z-jui"/>
                 <constraint firstItem="dzu-gg-IWq" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="SGS-wb-Hxw"/>
                 <constraint firstItem="dzu-gg-IWq" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="U8P-73-1Rp"/>
+                <constraint firstItem="jJ3-n1-6lc" firstAttribute="top" secondItem="dzu-gg-IWq" secondAttribute="bottom" id="eno-it-eUp"/>
+                <constraint firstItem="jJ3-n1-6lc" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="omv-hN-yHh"/>
+                <constraint firstItem="jJ3-n1-6lc" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" id="zjY-gy-jpV"/>
             </constraints>
             <point key="canvasLocation" x="138.75" y="96.25"/>
         </view>

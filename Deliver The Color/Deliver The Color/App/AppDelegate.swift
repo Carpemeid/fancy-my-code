@@ -16,9 +16,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         window = UIWindow(frame: UIScreen.main.bounds)
         
-        let chooseColorViewModel = ChooseColorViewModelImpl()
-        let chooseColorViewController = ChooseColorViewController(viewModel: chooseColorViewModel)
-        chooseColorViewModel.bind(view: chooseColorViewController)
+        let chooseColorContentViewModel = ChooseColorContentViewModelImpl()
+        let chooseColorViewController = ChooseColorContentViewController(viewModel: chooseColorContentViewModel)
+        chooseColorContentViewModel.bind(view: chooseColorViewController)
         
         window?.rootViewController = chooseColorViewController
         
