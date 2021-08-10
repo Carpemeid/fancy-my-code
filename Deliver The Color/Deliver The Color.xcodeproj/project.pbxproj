@@ -32,6 +32,8 @@
 		02B4B1B926C28932001DDBFD /* MockSelectCorrectColorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B4B1B826C28932001DDBFD /* MockSelectCorrectColorViewModel.swift */; };
 		02B4B1BB26C289DC001DDBFD /* MockChooseColorContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B4B1BA26C289DC001DDBFD /* MockChooseColorContentView.swift */; };
 		02B4B1BF26C28A55001DDBFD /* ChooseColorContentViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B4B1BE26C28A55001DDBFD /* ChooseColorContentViewModelTests.swift */; };
+		02B4B1C226C28FF9001DDBFD /* SelectCorrectColorViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B4B1C126C28FF9001DDBFD /* SelectCorrectColorViewModelTests.swift */; };
+		02B4B1C526C2930D001DDBFD /* SelectWrongColorViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B4B1C426C2930D001DDBFD /* SelectWrongColorViewModelTests.swift */; };
 		02BDEF1826C1CCB30057C3C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BDEF1726C1CCB30057C3C1 /* AppDelegate.swift */; };
 		02BDEF2126C1CCB50057C3C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02BDEF2026C1CCB50057C3C1 /* Assets.xcassets */; };
 		02BDEF2426C1CCB50057C3C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02BDEF2226C1CCB50057C3C1 /* LaunchScreen.storyboard */; };
@@ -73,6 +75,8 @@
 		02B4B1B826C28932001DDBFD /* MockSelectCorrectColorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockSelectCorrectColorViewModel.swift; sourceTree = "<group>"; };
 		02B4B1BA26C289DC001DDBFD /* MockChooseColorContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockChooseColorContentView.swift; sourceTree = "<group>"; };
 		02B4B1BE26C28A55001DDBFD /* ChooseColorContentViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseColorContentViewModelTests.swift; sourceTree = "<group>"; };
+		02B4B1C126C28FF9001DDBFD /* SelectCorrectColorViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCorrectColorViewModelTests.swift; sourceTree = "<group>"; };
+		02B4B1C426C2930D001DDBFD /* SelectWrongColorViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectWrongColorViewModelTests.swift; sourceTree = "<group>"; };
 		02BDEF1426C1CCB30057C3C1 /* Deliver The Color.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Deliver The Color.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		02BDEF1726C1CCB30057C3C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		02BDEF2026C1CCB50057C3C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -240,9 +244,27 @@
 		02B4B1BD26C28A44001DDBFD /* ChooseColor */ = {
 			isa = PBXGroup;
 			children = (
+				02B4B1C326C292FB001DDBFD /* SelectWrongColor */,
+				02B4B1C026C28FE2001DDBFD /* SelectCorrectColor */,
 				02B4B1BE26C28A55001DDBFD /* ChooseColorContentViewModelTests.swift */,
 			);
 			path = ChooseColor;
+			sourceTree = "<group>";
+		};
+		02B4B1C026C28FE2001DDBFD /* SelectCorrectColor */ = {
+			isa = PBXGroup;
+			children = (
+				02B4B1C126C28FF9001DDBFD /* SelectCorrectColorViewModelTests.swift */,
+			);
+			path = SelectCorrectColor;
+			sourceTree = "<group>";
+		};
+		02B4B1C326C292FB001DDBFD /* SelectWrongColor */ = {
+			isa = PBXGroup;
+			children = (
+				02B4B1C426C2930D001DDBFD /* SelectWrongColorViewModelTests.swift */,
+			);
+			path = SelectWrongColor;
 			sourceTree = "<group>";
 		};
 		02BDEF0B26C1CCB30057C3C1 = {
@@ -414,10 +436,12 @@
 				02B4B1AE26C2880A001DDBFD /* MockSelectWrongColorView.swift in Sources */,
 				02B4B1B526C288C6001DDBFD /* MockSelectCorrectColorView.swift in Sources */,
 				02B4B1B926C28932001DDBFD /* MockSelectCorrectColorViewModel.swift in Sources */,
+				02B4B1C526C2930D001DDBFD /* SelectWrongColorViewModelTests.swift in Sources */,
 				02B4B1BF26C28A55001DDBFD /* ChooseColorContentViewModelTests.swift in Sources */,
 				02B4B1B026C2884D001DDBFD /* MockSelectWrongColorViewModelDelegate.swift in Sources */,
 				02B4B1BB26C289DC001DDBFD /* MockChooseColorContentView.swift in Sources */,
 				02B4B1A826C287A8001DDBFD /* MockColorItemDataSourceGenerator.swift in Sources */,
+				02B4B1C226C28FF9001DDBFD /* SelectCorrectColorViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
