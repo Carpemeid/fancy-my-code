@@ -24,8 +24,14 @@ final class ChooseColorContentViewModelImpl: ChooseColorContentViewModel {
     private weak var delegate: ChooseColorContentViewModelDelegate?
     private weak var view: ChooseColorContentView?
     
+    private var timer: Timer?
+    private var startDate: Date?
+    
+    private let dateComponentsFormatter = DateComponentsFormatter()
+    
     init(delegate: ChooseColorContentViewModelDelegate) {
         self.delegate = delegate
+        dateComponentsFormatter.unitsStyle = .positional
     }
     
     func bind(view: ChooseColorContentView) {
@@ -37,6 +43,32 @@ final class ChooseColorContentViewModelImpl: ChooseColorContentViewModel {
     }
     
     func viewDidAppear() {
+        resetTimer()
+    }
+    
+    private func resetTimer() {
+        timer?.invalidate()
+        timer = nil
+        startDate = Date()
+        refreshTime()
         
+        timer = Timer.scheduledTimer(withTimeInterval: 1, repeats: true) { [weak self] _ in
+            self?.refreshTime()
+        }
+    }
+    
+    private func refreshTime() {
+        guard let startDate = startDate else {
+            return
+        }
+        
+        let currentDate = Date()
+        
+        guard let timeStringValue = dateComponentsFormatter.string(from: startDate,
+                                                                   to: currentDate) else {
+            return
+        }
+        
+        view?.set(time: timeStringValue)
     }
 }

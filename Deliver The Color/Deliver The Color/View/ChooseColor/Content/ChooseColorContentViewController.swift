@@ -38,6 +38,8 @@ protocol ChooseColorContentView: AnyObject {
 final class ChooseColorContentViewController: UIViewController {
     private let viewModel: ChooseColorContentViewModel
     
+    @IBOutlet private weak var timeLabel: UILabel!
+    
     // forcing the creation of the VC in the only allowed way
     // in which this class can correctly function
     init(viewModel: ChooseColorContentViewModel) {
@@ -61,11 +63,17 @@ final class ChooseColorContentViewController: UIViewController {
 
         viewModel.viewDidLoad()
     }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        viewModel.viewDidAppear()
+    }
 }
 
 extension ChooseColorContentViewController: ChooseColorContentView {
     func set(time: String) {
-        
+        timeLabel.text = time
     }
     
     func set(contentViewController: UIViewController) {

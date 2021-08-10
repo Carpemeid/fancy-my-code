@@ -10,6 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ChooseColorContentViewController" customModule="Deliver_The_Color" customModuleProvider="target">
             <connections>
+                <outlet property="timeLabel" destination="dzu-gg-IWq" id="jwo-tH-Ryi"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -17,9 +18,26 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dzu-gg-IWq">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="RmH-xg-Yao"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-            <point key="canvasLocation" x="139" y="97"/>
+            <constraints>
+                <constraint firstItem="dzu-gg-IWq" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="BAK-K7-M5i"/>
+                <constraint firstItem="dzu-gg-IWq" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="SGS-wb-Hxw"/>
+                <constraint firstItem="dzu-gg-IWq" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="U8P-73-1Rp"/>
+            </constraints>
+            <point key="canvasLocation" x="138.75" y="96.25"/>
         </view>
     </objects>
     <resources>
