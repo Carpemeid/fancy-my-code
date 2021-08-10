@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -20,10 +20,32 @@
 		02B4B18626C277CC001DDBFD /* SelectWrongColorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B4B18526C277CC001DDBFD /* SelectWrongColorViewModel.swift */; };
 		02B4B18926C27DCD001DDBFD /* AlertViewControllerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B4B18826C27DCD001DDBFD /* AlertViewControllerFactory.swift */; };
 		02B4B18C26C28288001DDBFD /* UIView+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B4B18B26C28288001DDBFD /* UIView+Utils.swift */; };
+		02B4B19C26C28542001DDBFD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B4B19B26C28542001DDBFD /* main.swift */; };
+		02B4B1A226C286F1001DDBFD /* Nimble in Frameworks */ = {isa = PBXBuildFile; productRef = 02B4B1A126C286F1001DDBFD /* Nimble */; };
+		02B4B1A526C2872E001DDBFD /* Quick in Frameworks */ = {isa = PBXBuildFile; productRef = 02B4B1A426C2872E001DDBFD /* Quick */; };
+		02B4B1A826C287A8001DDBFD /* MockColorItemDataSourceGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B4B1A726C287A8001DDBFD /* MockColorItemDataSourceGenerator.swift */; };
+		02B4B1AE26C2880A001DDBFD /* MockSelectWrongColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B4B1AD26C2880A001DDBFD /* MockSelectWrongColorView.swift */; };
+		02B4B1B026C2884D001DDBFD /* MockSelectWrongColorViewModelDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B4B1AF26C2884D001DDBFD /* MockSelectWrongColorViewModelDelegate.swift */; };
+		02B4B1B226C28889001DDBFD /* MockSelectWrongColorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B4B1B126C28889001DDBFD /* MockSelectWrongColorViewModel.swift */; };
+		02B4B1B526C288C6001DDBFD /* MockSelectCorrectColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B4B1B426C288C6001DDBFD /* MockSelectCorrectColorView.swift */; };
+		02B4B1B726C28901001DDBFD /* MockSelectCorrectColorViewModelDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B4B1B626C28901001DDBFD /* MockSelectCorrectColorViewModelDelegate.swift */; };
+		02B4B1B926C28932001DDBFD /* MockSelectCorrectColorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B4B1B826C28932001DDBFD /* MockSelectCorrectColorViewModel.swift */; };
+		02B4B1BB26C289DC001DDBFD /* MockChooseColorContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B4B1BA26C289DC001DDBFD /* MockChooseColorContentView.swift */; };
+		02B4B1BF26C28A55001DDBFD /* ChooseColorContentViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B4B1BE26C28A55001DDBFD /* ChooseColorContentViewModelTests.swift */; };
 		02BDEF1826C1CCB30057C3C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BDEF1726C1CCB30057C3C1 /* AppDelegate.swift */; };
 		02BDEF2126C1CCB50057C3C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02BDEF2026C1CCB50057C3C1 /* Assets.xcassets */; };
 		02BDEF2426C1CCB50057C3C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02BDEF2226C1CCB50057C3C1 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02B4B19626C28510001DDBFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02BDEF0C26C1CCB30057C3C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02BDEF1326C1CCB30057C3C1;
+			remoteInfo = "Deliver The Color";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		02B4B16A26C1EFD2001DDBFD /* ChooseColorContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseColorContentViewController.swift; sourceTree = "<group>"; };
@@ -39,6 +61,18 @@
 		02B4B18526C277CC001DDBFD /* SelectWrongColorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectWrongColorViewModel.swift; sourceTree = "<group>"; };
 		02B4B18826C27DCD001DDBFD /* AlertViewControllerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewControllerFactory.swift; sourceTree = "<group>"; };
 		02B4B18B26C28288001DDBFD /* UIView+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Utils.swift"; sourceTree = "<group>"; };
+		02B4B19126C28510001DDBFD /* Deliver The Color Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Deliver The Color Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		02B4B19526C28510001DDBFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02B4B19B26C28542001DDBFD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		02B4B1A726C287A8001DDBFD /* MockColorItemDataSourceGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockColorItemDataSourceGenerator.swift; sourceTree = "<group>"; };
+		02B4B1AD26C2880A001DDBFD /* MockSelectWrongColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockSelectWrongColorView.swift; sourceTree = "<group>"; };
+		02B4B1AF26C2884D001DDBFD /* MockSelectWrongColorViewModelDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockSelectWrongColorViewModelDelegate.swift; sourceTree = "<group>"; };
+		02B4B1B126C28889001DDBFD /* MockSelectWrongColorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockSelectWrongColorViewModel.swift; sourceTree = "<group>"; };
+		02B4B1B426C288C6001DDBFD /* MockSelectCorrectColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockSelectCorrectColorView.swift; sourceTree = "<group>"; };
+		02B4B1B626C28901001DDBFD /* MockSelectCorrectColorViewModelDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockSelectCorrectColorViewModelDelegate.swift; sourceTree = "<group>"; };
+		02B4B1B826C28932001DDBFD /* MockSelectCorrectColorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockSelectCorrectColorViewModel.swift; sourceTree = "<group>"; };
+		02B4B1BA26C289DC001DDBFD /* MockChooseColorContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockChooseColorContentView.swift; sourceTree = "<group>"; };
+		02B4B1BE26C28A55001DDBFD /* ChooseColorContentViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseColorContentViewModelTests.swift; sourceTree = "<group>"; };
 		02BDEF1426C1CCB30057C3C1 /* Deliver The Color.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Deliver The Color.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		02BDEF1726C1CCB30057C3C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		02BDEF2026C1CCB50057C3C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -47,6 +81,15 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		02B4B18E26C28510001DDBFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02B4B1A526C2872E001DDBFD /* Quick in Frameworks */,
+				02B4B1A226C286F1001DDBFD /* Nimble in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		02BDEF1126C1CCB30057C3C1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -121,10 +164,92 @@
 			path = Utilities;
 			sourceTree = "<group>";
 		};
+		02B4B19226C28510001DDBFD /* Deliver The Color Tests */ = {
+			isa = PBXGroup;
+			children = (
+				02B4B1BC26C28A41001DDBFD /* View */,
+				02B4B1A626C28781001DDBFD /* Mocks */,
+				02B4B19526C28510001DDBFD /* Info.plist */,
+			);
+			path = "Deliver The Color Tests";
+			sourceTree = "<group>";
+		};
+		02B4B1A626C28781001DDBFD /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				02B4B1AA26C287E9001DDBFD /* View */,
+				02B4B1A926C287E2001DDBFD /* Services */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		02B4B1A926C287E2001DDBFD /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				02B4B1A726C287A8001DDBFD /* MockColorItemDataSourceGenerator.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		02B4B1AA26C287E9001DDBFD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				02B4B1AB26C287F3001DDBFD /* ChooseColor */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		02B4B1AB26C287F3001DDBFD /* ChooseColor */ = {
+			isa = PBXGroup;
+			children = (
+				02B4B1B326C288B0001DDBFD /* SelectCorrectColor */,
+				02B4B1AC26C287F8001DDBFD /* SelectWrongColor */,
+				02B4B1BA26C289DC001DDBFD /* MockChooseColorContentView.swift */,
+			);
+			path = ChooseColor;
+			sourceTree = "<group>";
+		};
+		02B4B1AC26C287F8001DDBFD /* SelectWrongColor */ = {
+			isa = PBXGroup;
+			children = (
+				02B4B1AD26C2880A001DDBFD /* MockSelectWrongColorView.swift */,
+				02B4B1AF26C2884D001DDBFD /* MockSelectWrongColorViewModelDelegate.swift */,
+				02B4B1B126C28889001DDBFD /* MockSelectWrongColorViewModel.swift */,
+			);
+			path = SelectWrongColor;
+			sourceTree = "<group>";
+		};
+		02B4B1B326C288B0001DDBFD /* SelectCorrectColor */ = {
+			isa = PBXGroup;
+			children = (
+				02B4B1B426C288C6001DDBFD /* MockSelectCorrectColorView.swift */,
+				02B4B1B626C28901001DDBFD /* MockSelectCorrectColorViewModelDelegate.swift */,
+				02B4B1B826C28932001DDBFD /* MockSelectCorrectColorViewModel.swift */,
+			);
+			path = SelectCorrectColor;
+			sourceTree = "<group>";
+		};
+		02B4B1BC26C28A41001DDBFD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				02B4B1BD26C28A44001DDBFD /* ChooseColor */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		02B4B1BD26C28A44001DDBFD /* ChooseColor */ = {
+			isa = PBXGroup;
+			children = (
+				02B4B1BE26C28A55001DDBFD /* ChooseColorContentViewModelTests.swift */,
+			);
+			path = ChooseColor;
+			sourceTree = "<group>";
+		};
 		02BDEF0B26C1CCB30057C3C1 = {
 			isa = PBXGroup;
 			children = (
 				02BDEF1626C1CCB30057C3C1 /* Deliver The Color */,
+				02B4B19226C28510001DDBFD /* Deliver The Color Tests */,
 				02BDEF1526C1CCB30057C3C1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -133,6 +258,7 @@
 			isa = PBXGroup;
 			children = (
 				02BDEF1426C1CCB30057C3C1 /* Deliver The Color.app */,
+				02B4B19126C28510001DDBFD /* Deliver The Color Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -147,6 +273,7 @@
 				02BDEF2B26C1D38B0057C3C1 /* App */,
 				02BDEF2026C1CCB50057C3C1 /* Assets.xcassets */,
 				02BDEF2526C1CCB50057C3C1 /* Info.plist */,
+				02B4B19B26C28542001DDBFD /* main.swift */,
 			);
 			path = "Deliver The Color";
 			sourceTree = "<group>";
@@ -172,6 +299,28 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		02B4B19026C28510001DDBFD /* Deliver The Color Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02B4B19826C28510001DDBFD /* Build configuration list for PBXNativeTarget "Deliver The Color Tests" */;
+			buildPhases = (
+				02B4B18D26C28510001DDBFD /* Sources */,
+				02B4B18E26C28510001DDBFD /* Frameworks */,
+				02B4B18F26C28510001DDBFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02B4B19726C28510001DDBFD /* PBXTargetDependency */,
+			);
+			name = "Deliver The Color Tests";
+			packageProductDependencies = (
+				02B4B1A126C286F1001DDBFD /* Nimble */,
+				02B4B1A426C2872E001DDBFD /* Quick */,
+			);
+			productName = "Deliver The Color Tests";
+			productReference = 02B4B19126C28510001DDBFD /* Deliver The Color Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		02BDEF1326C1CCB30057C3C1 /* Deliver The Color */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 02BDEF2826C1CCB50057C3C1 /* Build configuration list for PBXNativeTarget "Deliver The Color" */;
@@ -185,6 +334,8 @@
 			dependencies = (
 			);
 			name = "Deliver The Color";
+			packageProductDependencies = (
+			);
 			productName = "Deliver The Color";
 			productReference = 02BDEF1426C1CCB30057C3C1 /* Deliver The Color.app */;
 			productType = "com.apple.product-type.application";
@@ -198,6 +349,11 @@
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
+					02B4B19026C28510001DDBFD = {
+						CreatedOnToolsVersion = 12.5.1;
+						LastSwiftMigration = 1250;
+						TestTargetID = 02BDEF1326C1CCB30057C3C1;
+					};
 					02BDEF1326C1CCB30057C3C1 = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
@@ -212,16 +368,28 @@
 				Base,
 			);
 			mainGroup = 02BDEF0B26C1CCB30057C3C1;
+			packageReferences = (
+				02B4B1A026C286F1001DDBFD /* XCRemoteSwiftPackageReference "Nimble" */,
+				02B4B1A326C2872E001DDBFD /* XCRemoteSwiftPackageReference "Quick" */,
+			);
 			productRefGroup = 02BDEF1526C1CCB30057C3C1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				02BDEF1326C1CCB30057C3C1 /* Deliver The Color */,
+				02B4B19026C28510001DDBFD /* Deliver The Color Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		02B4B18F26C28510001DDBFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		02BDEF1226C1CCB30057C3C1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -237,12 +405,29 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		02B4B18D26C28510001DDBFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02B4B1B726C28901001DDBFD /* MockSelectCorrectColorViewModelDelegate.swift in Sources */,
+				02B4B1B226C28889001DDBFD /* MockSelectWrongColorViewModel.swift in Sources */,
+				02B4B1AE26C2880A001DDBFD /* MockSelectWrongColorView.swift in Sources */,
+				02B4B1B526C288C6001DDBFD /* MockSelectCorrectColorView.swift in Sources */,
+				02B4B1B926C28932001DDBFD /* MockSelectCorrectColorViewModel.swift in Sources */,
+				02B4B1BF26C28A55001DDBFD /* ChooseColorContentViewModelTests.swift in Sources */,
+				02B4B1B026C2884D001DDBFD /* MockSelectWrongColorViewModelDelegate.swift in Sources */,
+				02B4B1BB26C289DC001DDBFD /* MockChooseColorContentView.swift in Sources */,
+				02B4B1A826C287A8001DDBFD /* MockColorItemDataSourceGenerator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		02BDEF1026C1CCB30057C3C1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				02B4B17F26C262C7001DDBFD /* ColorItemDataSourceGenerator.swift in Sources */,
 				02B4B17626C1FFB1001DDBFD /* SelectCorrectColorViewModel.swift in Sources */,
+				02B4B19C26C28542001DDBFD /* main.swift in Sources */,
 				02B4B18926C27DCD001DDBFD /* AlertViewControllerFactory.swift in Sources */,
 				02B4B18626C277CC001DDBFD /* SelectWrongColorViewModel.swift in Sources */,
 				02B4B18326C277A2001DDBFD /* SelectWrongColorViewController.swift in Sources */,
@@ -257,6 +442,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		02B4B19726C28510001DDBFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02BDEF1326C1CCB30057C3C1 /* Deliver The Color */;
+			targetProxy = 02B4B19626C28510001DDBFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		02BDEF2226C1CCB50057C3C1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -269,6 +462,47 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		02B4B19926C28510001DDBFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Deliver The Color Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fancy.color-deliver.Deliver-The-Color-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Deliver The Color.app/Deliver The Color";
+			};
+			name = Debug;
+		};
+		02B4B19A26C28510001DDBFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Deliver The Color Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fancy.color-deliver.Deliver-The-Color-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Deliver The Color.app/Deliver The Color";
+			};
+			name = Release;
+		};
 		02BDEF2626C1CCB50057C3C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -424,6 +658,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		02B4B19826C28510001DDBFD /* Build configuration list for PBXNativeTarget "Deliver The Color Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02B4B19926C28510001DDBFD /* Debug */,
+				02B4B19A26C28510001DDBFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		02BDEF0F26C1CCB30057C3C1 /* Build configuration list for PBXProject "Deliver The Color" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -443,6 +686,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		02B4B1A026C286F1001DDBFD /* XCRemoteSwiftPackageReference "Nimble" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Quick/Nimble.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 9.2.0;
+			};
+		};
+		02B4B1A326C2872E001DDBFD /* XCRemoteSwiftPackageReference "Quick" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Quick/Quick.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		02B4B1A126C286F1001DDBFD /* Nimble */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 02B4B1A026C286F1001DDBFD /* XCRemoteSwiftPackageReference "Nimble" */;
+			productName = Nimble;
+		};
+		02B4B1A426C2872E001DDBFD /* Quick */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 02B4B1A326C2872E001DDBFD /* XCRemoteSwiftPackageReference "Quick" */;
+			productName = Quick;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 02BDEF0C26C1CCB30057C3C1 /* Project object */;
 }

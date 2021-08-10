@@ -7,7 +7,6 @@
 
 import UIKit
 
-@main
 class AppDelegate: UIResponder, UIApplicationDelegate {
     // since I've removed the scene delegate, we need to now manually have a window property declared inside appdelegate
     // otherwise assigning to window property makes the compiler fail
